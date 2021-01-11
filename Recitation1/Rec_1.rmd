@@ -30,12 +30,10 @@ Recitations are for:
 
 ## Outline
 
-Today we will address the "development" side of Sustainable Development.
+Today we will address the "development" side of Sustainable Development. In Arrow et. al., development is reduced to one dimension: aggregate  wealth. Today we will discuss:
 
-1. What do we mean by development?
-2. What has development meant historically?
-3. What _should_ development mean?
-4. Is it a useful term?
+1. What is development as a historical phenomenon? (Development as fact)
+2. What should development be? (Development as ideal)
 
 ## Prompt
 
@@ -46,34 +44,60 @@ In the context of Sustainable Development:
 3. When did it start as a phenomenon? 
 4. When did it start as a concept?
 
-# De-constructing Development
+# Development as a Historical Phenomenon
 
-## Historical Origins
+## Development as Stages of Growth
 
 Definition: the act, process or result of growing and becoming more mature, advanced, or elaborate.
 
-Rooted in Enlightenment belief in Progress, associated with modernism.
-
-Development was a social evolutionary concept, where societies went through stages:
+Development as a social evolutionary concept, where societies go through stages:
 
 1. Hunter-Gatherers
 2. Agricultural
 3. Industrial
+4. Consumption-service economy.
 
-Associated with corresponding racial hierarchy.
+Pioneered by Marx, but widely accepted across all streams of economics.
 
---- 
+## Modern Study
+
+We can take "development" as being value-neutral, and define it as the process of moving towards a high-consumption service economy, such as the US, Europe and parts of East Asia today.
+
+This kind of "development" has mostly occurred in Europe, North America, and East Asia. Development economics and much of economic history has been grounded in this topic: why are some countries rich and others poor?
+
+Prompt: Why should a service-based, high-consumption economy be ranked higher than a poor, agrarian economy? On what grounds?
+
+# De-constructing Development
+
+## Problems with Development-as-Stages
+
+1. Post-1945 experience has shown that societies need not go through these stages to achieve desirable outcomes (e.g. Kerala and Costa Rica);
+2. Development-as-stages has been used to justify colonization, imperialism, genocide and destruction.
+
+
+## The Kerala Model
+
+Recent economic history has shown that countries need not go through these stages of development. There are many paths towards a literate, healthy society.
+
+Key example, the Indian state of Kerala:
+* 35 million people
+* GDP per-capita of $3000
+* Life Expectancy of 78 years
+* Literacy of 96%.
+
+Conclusion: we do not require "development" in the traditional sense of the word in order to achieve desirable outcomes.
+
+## Historical usage of Development
+
+The development-as-stages has been used to justify racial and cultural hierarchies: i.e. more advance societies must "lead" the more backwards.
+
+Within societies, development has been used as a pretext for the murder and destruction of local cultures: e.g. the indigenous people of the USA and the peasantry of the USSR.
+
+---
 
 ```{r,out.width="100%"}
-
-knitr::include_graphics("/home/friend/Images/The_White_Man's_Burden _Judge_1899.png")
+knitr::include_graphics("/home/friend/Images/white.png")
 ```
-
-## Development post-De-colonization
-
-Transformation towards elimination of poverty. Truman on the "under-developed" world:
-
-"More than half the people of the world are living in conditions approaching misery. Their food is inadequate. They are victims of disease. Their economic life is primitive and stagnant. Their poverty is a handicap and __a threat both to them and to more prosperous areas__."
 
 
 # Can we rescue "development"?
@@ -87,11 +111,28 @@ If so, why?
 If not, what would you replace it with?
 
 
-## Veil of Ignorance
+## Development as an Ideal
 
 How can we compare societies? The implicit goal in development is an ordinal ranking of states of the world-- i.e. would you rather live in world A or world B?
 
 John Rawls proposed the thought experiment of choosing between worlds from behind a "veil of ignorance."
+
+Sen, in _Development as Freedom_ expresses living standards as (positive) human rights, what he terms "capabilities."
+
+
+## Dimensions of Living Standards
+
+* Health
+* Material goods
+* Education
+* Civil Rights
+* Leisure
+* Type of work
+* Arts
+* Nature
+
+While appealing, Sen's capability approach does not allow for ordinal ranking of societies, except within a single dimension.
+
 
 ## Cultural Values
 
@@ -111,20 +152,10 @@ Is there necessarily a trade-off between economic development and conservation o
 knitr::include_graphics("/home/friend/Images/coke.png")
 ```
 
-## Dimensions of Living Standards
+## Prompt
 
-Sen expresses living standards as "capabilities," with many dimensions:
+Would you rather live in the world of 1950? Or the world of today? Why?
 
-* Health
-* Material goods
-* Education
-* Civil Rights
-* Leisure
-* Type of work
-* Arts
-* Nature
-
-While appealing, this does not allow for ordinal ranking of societies, except within a single dimension.
 
 ---
 
@@ -150,6 +181,8 @@ $$
 
 where LE is life-expectancy, MYS and EYS are mean and expected years schooling, and GDP is gross domestic product per-capita.
 
+In economics, this aggregation on the individual level is done via a utility function, which takes a large space of "goods" and maps it onto a single-dimensional ordinal scale.
+
 ## The Aggregation Problem
 
 Given a group of individuals, how do we construct a measure of _group_ welfare, as opposed to individual? 
@@ -158,24 +191,20 @@ How do include inequality?
 
 One answer: average. The HDI, as seen above, takes simple averages of life expectancy, years of schooling and gross national product.
 
+In economics, the may be done with a social welfare function. For example, see the Gorman aggregation, which allows a collection of consumers to be treated as a single consumer. Another example, consider the homothetic preferences used in international trade theory.
 
-## Prompt
-
-How does economics solve these two aggregation problems?
-
-How do we make social welfare statements in economic terms?
 
 ## A note on GDP
 
 What it is:
 
-* The sum of marketed economic activities within a political boundary, weighted by the market prices of said activities.
+* The sum of marketed, final goods within a political boundary, weighted by the market prices of said activities.
 
 What it isn't:
 
-* A measure of national income. That would be GNI. E.g. Ireland's GDP is 20% lower than its GNI.
+* A measure of national income. That would be GNI. E.g. Ireland's GDP is 20% lower than its GNI. How is this the case?
 
-* A measure of all economic activity. Historically, the vast majority of productive activity was non-marketed and therefore excluded from GDP.
+* A measure of economic activity. Historically, the vast majority of productive activity was non-marketed and therefore excluded from GDP.
 
 ---
 
