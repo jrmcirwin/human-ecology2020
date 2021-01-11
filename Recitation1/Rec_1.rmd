@@ -80,6 +80,7 @@ Prompt: Why should a service-based, high-consumption economy be ranked higher th
 Recent economic history has shown that countries need not go through these stages of development. There are many paths towards a literate, healthy society.
 
 Key example, the Indian state of Kerala:
+
 * 35 million people
 * GDP per-capita of $3000
 * Life Expectancy of 78 years
