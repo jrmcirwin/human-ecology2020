@@ -1,0 +1,296 @@
+---
+title: 'Human Ecology: Recitation 2'
+subtitle: "Economic Growth: Beyond Models"
+author: "Jesse McDevitt-Irwin"
+output: ioslides_presentation
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+--- 
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE
+)
+```
+
+# Jones and Klenow 2016
+
+## Prompt
+
+How do the authors account for within-country inequality? 
+
+What limits do you see in the authors' approach? 
+
+
+## Prompt
+
+Several of you mentioned indicators you would like to seen added to the welfare metric, including:
+
+* Morbidity; 
+* Mental health; and,
+* The natural environment. 
+
+Could these terms easily be added to the welfare metric?
+
+Why might this be challenging?
+
+
+## Prompt
+
+How is consumption measured?
+
+How does this measured value relate to consumer surplus?
+
+What goods are excluded? Do you think this biases the results?
+
+# Economic Growth
+
+## Overview
+
+Today we will discuss:
+
+1. The distribution of GDP across space;
+2. The distribution of GDP across time; and,
+3. Qualitative transformations which accompany growth.
+
+---
+
+```{r}
+knitr::include_url("https://ourworldindata.org/grapher/average-real-gdp-per-capita-across-countries-and-regions?tab=map&time=2016")
+
+```
+
+
+## Prompt
+
+What is economic growth? How is it measured?
+
+## Definitions
+
+Economic growth can be thought of as:
+
+* the increase in productive capacity of an economy (think of a PPF); or
+* the increase in the market value of the goods and services produced by an economy over time, measure by GDP.
+
+These are slightly different concepts. We will focus on the latter, more narrow interpretation of growth.
+
+## Overview
+
+Economic growth is can be decomposed into:
+
+1. Population Growth;
+2. Growth in per-capita income.
+
+Both population and GDP per-capita have exploded since 1800. 
+
+# Population
+
+## Prompt
+
+How does per-capita income affect population growth?
+
+How does population affect per-capita income growth?
+
+## Population Growth
+
+Population has grown consistently since pre-history, supported by technological improvements. Note two major episodes:
+
+1. Population growth after 1500, facilitated by the diffusion of crops from the Americas; and,
+2. Population growth from 1850 to today, caused by the decline in infant mortality across the world, starting in Europe.
+
+
+---
+
+```{r}
+knitr::include_url("https://ourworldindata.org/grapher/world-population-1750-2015-and-un-projection-until-2100?time=-4000..latest")
+
+```
+
+
+
+## Demographic transition
+
+A regular feature in demography:
+
+1. Mortality decreases;
+2. Then fertility decreases, with a lag
+
+This lag creates massive, temporary population growth, such as in Britain around 1900, or much of Africa in the mid-to-late 20th century.
+
+---
+
+```{r,out.width="100%"}
+knitr::include_graphics("/home/friend/Images/dem.png")
+```	
+
+
+
+# Long-run Economic Growth
+
+## Pre-1800
+
+Before 1800:
+
+* No evidence of _sustained_ economic growth.;
+* Any period of growth was eventually followed by contraction.
+
+GDP per-capita is:
+
+* Very difficult to calculate for historical populations;
+* Available for parts of Europe; 
+* Attention increasingly focusing on Asia as well
+
+---
+
+```{r,out.width="100%"}
+knitr::include_graphics("/home/friend/Images/GDP-per-capita-in-European-economies.png")
+```	
+
+## Post-1800
+
+After 1800 we see "modern economic growth": 
+
+* Sustained increase in GDP per-capita;
+* Driven by a technological change.
+
+This begins in England with the Industrial Revolution.
+
+---
+
+```{r}
+knitr::include_url("https://ourworldindata.org/grapher/gdp-per-capita-clio-infra?tab=chart&country=~GBR")
+
+```
+
+
+## Industrial revolution.
+
+Before 1800, nearly all energy came from biomass.
+
+The industrial revolution allowed humans to harness other forms of energy.
+
+Science and technological development eventually culminated in an unprecedented control and exploitation of nature.
+
+The combination of increased access to energy and technological progress led to rapid, sustained productivity growth.
+
+---
+
+```{r}
+knitr::include_url("https://ourworldindata.org/grapher/global-primary-energy?time=earliest..latest")
+
+```
+
+---
+
+```{r}
+knitr::include_url("https://ourworldindata.org/grapher/output-of-key-industrial-sectors-in-england-and-the-uk?yScale=linear&time=earliest..latest")
+
+```
+
+## The Great Divergence
+
+Before 1800:
+
+* Europe and Asia had broadly similar living standards and GDP per-capita.
+
+After 1800:
+
+* Europe took off in terms of wealth, power, and (eventually) living standards;
+* Facilitated the domination and colonization of Africa and Asia by European powers;
+* Asia (especially India) _de-industrialized_ in the 19th century.
+
+
+## Why Europe?
+
+Some theories for why north-western Europe industrialized:
+
+* High wages relative to the cost of capital (Robert Allen);
+* Culture and ideology, with a focus on science and technology (Joel Mokyr);
+* Colonial profits (Eric Williams);
+* Institutions and property rights (Douglas North).
+
+But who knows...
+
+
+## The First Globalization
+
+From 1870-1914:
+
+* Northern and Western Europe, the USA, and Japan also industrialized;
+* Most of the rest of the world was held as colonies.
+
+---
+
+```{r,out.width="120%"}
+knitr::include_graphics("/home/friend/Images/1914.png")
+```	
+
+## The First Globalization
+
+In the industrial core:
+
+* intensive economic growth based on manufacturing;
+
+In the periphery (colonies):
+
+* extensive economic growth based on exports;
+* typically organized around European-owned plantations and mines using forced labor.
+
+## The First Globalization
+
+Africa, Asia and Latin America focused on low-value production, agriculture and raw materials due to:
+
+* Direct political coercion and colonization;
+* Market pressures of comparative advantage.
+
+Countries who resisted market pressures were forced to sign "free-trade" agreements.
+
+---
+
+```{r,out.width="100%"}
+knitr::include_graphics("/home/friend/Images/trade.jpeg")
+```	
+
+
+## Prompt
+
+We model economic growth as a closed system. Do you see any problems with this? 
+
+What is the role of international trade in economic growth and development? 
+
+What is the role of FDI?
+
+How does the international community constrain policy-makers in developing countries?
+
+## 1914-1945
+
+Not of much interest to growth theorists! More about stabilization...
+
+## 1945-1980
+
+We see:
+
+* Rapid economic growth in Industrialized countries (East and West bloc);
+* Including catch-up growth in Germany and Japan;
+* Catch-up growth in the USSR and East Asia;
+* Growth in poor countries, not less than in richer countries.
+
+---
+
+```{r}
+knitr::include_url("https://ourworldindata.org/grapher/average-real-gdp-per-capita-across-countries-and-regions")
+
+```
+
+## 1980-Today
+
+We see:
+
+* Little (sometimes negative) growth in the former USSR;
+* Rapid growth in China;
+* Growth in most poor countries (e.g. India) but little in Africa;
+* Slowdown of growth in developed countries.
+
+
+
+
+

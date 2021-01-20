@@ -18,6 +18,8 @@ knitr::opts_chunk$set(
 * Midterm
 * Final
 
+My office hours are by appointment.
+
 ## Expectations
 
 Recitations are for:
@@ -26,11 +28,12 @@ Recitations are for:
 * Explanation of questions from lecture
 * Review of lecture material
 
+
 # Development (?)
 
 ## Outline
 
-Today we will address the "development" side of Sustainable Development. In Arrow et. al., development is reduced to one dimension: aggregate  wealth. Today we will discuss:
+Today we will address the "development" side of Sustainable Development. Two main questions to address:
 
 1. What is development as a historical phenomenon? (Development as fact)
 2. What should development be? (Development as ideal)
@@ -41,8 +44,8 @@ In the context of Sustainable Development:
 
 1. What is development? 
 2. What are its characteristics? 
-3. When did it start as a phenomenon? 
-4. When did it start as a concept?
+3. When did it start as a phenomenon?  (i.e. when did societies start "developing")
+4. When did it start as a concept? (i.e. when did people start talking about "development")
 
 # Development as a Historical Phenomenon
 
@@ -57,7 +60,8 @@ Development as a social evolutionary concept, where societies go through stages:
 3. Industrial
 4. Consumption-service economy.
 
-Pioneered by Marx, but widely accepted across all streams of economics.
+
+Economic development was part of a broader, modernist (19th century) ideology of "progress."
 
 ## Modern Study
 
@@ -126,7 +130,7 @@ Sen, in _Development as Freedom_ expresses living standards as (positive) human 
 * Health
 * Material goods
 * Education
-* Civil Rights
+* Civil Rights and Community
 * Leisure
 * Type of work
 * Arts
