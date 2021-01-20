@@ -73,9 +73,18 @@ Economic growth can be thought of as:
 
 These are slightly different concepts. We will focus on the latter, more narrow interpretation of growth.
 
+## Prompt
+
+How does economic growth affect the human footprint on the natural environment? 
+
+How does it affect the consumption of natural resources?
+
+How does your answer depend on which definition we take from the previous slides?
+
+
 ## Overview
 
-Economic growth is can be decomposed into:
+Economic growth can be decomposed into:
 
 1. Population Growth;
 2. Growth in per-capita income.
@@ -223,6 +232,18 @@ From 1870-1914:
 ```{r,out.width="120%"}
 knitr::include_graphics("/home/friend/Images/1914.png")
 ```	
+
+## Trivia
+
+By market capitalization, what is/was the largest company in history?
+
+---
+
+
+```{r,out.width="100%"}
+knitr::include_graphics("/home/friend/Images/trade.jpeg")
+```	
+
 
 ## The First Globalization
 
