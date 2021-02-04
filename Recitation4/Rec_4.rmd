@@ -1,0 +1,102 @@
+---
+title: 'Human Ecology: Recitation 4'
+subtitle: "Poverty Traps in the Solow Model"
+author: "Jesse McDevitt-Irwin"
+output: ioslides_presentation
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+--- 
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE
+)
+```
+
+## Prompt
+
+How could democracy drive growth? 
+
+Give theoretical reasons, as well as historical examples if possible.
+
+
+## Prompt
+
+Claim: democracy is the responsiveness of public policy to public opinion.
+
+Thoughts?
+
+## But....
+
+70% of Americans support Medicare-for-All!!
+
+A similar percentage support a nation-wide carbon tax.
+
+## Prompt
+
+How could democracy affect environmental policies?
+
+Do you think that democracies do better with regard to the environment?
+
+Give some theoretical reasons to support your answer, and historical examples where possible.
+
+
+## The Solow Model
+
+Endogenous Variables: 
+
+* $K$ - capital
+* $L$ - labor = population
+* $k = \frac{K}{L}$ 
+
+Exogenous Parameters:
+
+* F() - production function
+* $n$ - population growth
+* $s$ - savings rate
+* $\delta$ - depreciation
+
+
+
+## The Solow Model
+
+Law of motion of capital:
+
+* $K_{t+1} = s*Y_t + (1-\delta)K_t$
+
+Which implies the "fundamental equation of Solow-Swann" (FESS):
+
+$\frac{\Delta k}{k} = s\frac{f(k)}{k} - (\delta+n)$
+
+
+## The Solow Model
+
+From FESS:
+
+* Unique steady state;
+* If $K_0>0$ economy will always converge to steady state.
+
+
+## Poverty Traps
+
+Definition: 
+
+* multiple steady states;
+* outcome depends on initial conditions.
+
+In other words, the poor stay poor and the rich stay rich. Certainly sounds more realistic...
+
+## Building a Poverty Trap
+
+For there to be a PT, some of the exogenous parameters (e.g. $n$, $s$, $F$) must _depend on_ k. 
+
+Example: the savings poverty trap.
+
+## Exercise
+
+Task-Master!
+
+Split into pairs, make up a poverty trap in the Solow model. Micro-found it: i.e. come up with a convincing narrative for its applicability in the real world
+
+When done, we will re-convene, and share creations. Be creative!! Lose points for having the same PT as another group.
+
+
