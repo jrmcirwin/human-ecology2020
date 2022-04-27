@@ -1,0 +1,84 @@
+---
+title: 'Human Ecology Recitation: Disease'
+author: "Jesse McDevitt-Irwin"
+output:
+  xaringan::moon_reader:
+    css: ["default", "rladies", "rladies-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+--- 
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE, warning=FALSE,comments=FALSE,
+  out.width = "100%"
+)
+```
+
+
+class: center,middle 
+
+# Mortality decline
+
+---
+
+
+<iframe src="https://ourworldindata.org/grapher/life-expectancy?time=1950..2015" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+
+---
+
+
+```{r  }
+knitr::include_graphics("/home/friend/Images/reddit.png")
+```
+
+---
+
+<iframe src="https://ourworldindata.org/grapher/death-rates-through-the-20th-century?country=~USA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+---
+
+<iframe src="https://data.worldbank.org/share/widget?indicators=SP.DYN.CDRT.IN&locations=US-RU-SN-ZA" width='1000' height='666' frameBorder='0' scrolling="no" ></iframe>
+
+
+
+---
+
+<iframe src="https://ourworldindata.org/grapher/life-expectancy?tab=chart&time=1953..latest&country=JPN~GBR~IND~ETH~OWID_WRL~KOR~ZAF~RUS" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+---
+
+class: center,middle 
+
+# AIDS
+
+---
+
+
+<iframe src="https://ourworldindata.org/grapher/share-deaths-aids?tab=chart" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+---
+
+<iframe src="https://ourworldindata.org/grapher/hivaids-deaths-and-averted-due-to-art?country=~OWID_WRL" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+---
+
+<iframe src="https://ourworldindata.org/grapher/share-of-population-infected-with-hiv-ihme" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+---
+
+class: center,middle 
+
+# COVID
+
+---
+
+```{r  }
+knitr::include_graphics("/home/friend/Images/causes.png")
+```

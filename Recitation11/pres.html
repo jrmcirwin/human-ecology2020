@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Human Ecology Recitation: Disease</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jesse McDevitt-Irwin" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rladies-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Human Ecology Recitation: Disease
+### Jesse McDevitt-Irwin
+### 27 April, 2022
+
+---
+
+
+
+
+
+
+class: center,middle 
+
+# Mortality decline
+
+---
+
+
+&lt;iframe src="https://ourworldindata.org/grapher/life-expectancy?time=1950..2015" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"&gt;&lt;/iframe&gt;
+
+
+---
+
+
+&lt;img src="/home/friend/Images/reddit.png" width="100%" /&gt;
+
+---
+
+&lt;iframe src="https://ourworldindata.org/grapher/death-rates-through-the-20th-century?country=~USA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"&gt;&lt;/iframe&gt;
+
+---
+
+&lt;iframe src="https://data.worldbank.org/share/widget?indicators=SP.DYN.CDRT.IN&amp;locations=US-RU-SN-ZA" width='1000' height='666' frameBorder='0' scrolling="no" &gt;&lt;/iframe&gt;
+
+
+
+---
+
+&lt;iframe src="https://ourworldindata.org/grapher/life-expectancy?tab=chart&amp;time=1953..latest&amp;country=JPN~GBR~IND~ETH~OWID_WRL~KOR~ZAF~RUS" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"&gt;&lt;/iframe&gt;
+
+---
+
+class: center,middle 
+
+# AIDS
+
+---
+
+
+&lt;iframe src="https://ourworldindata.org/grapher/share-deaths-aids?tab=chart" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"&gt;&lt;/iframe&gt;
+
+---
+
+&lt;iframe src="https://ourworldindata.org/grapher/hivaids-deaths-and-averted-due-to-art?country=~OWID_WRL" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"&gt;&lt;/iframe&gt;
+
+---
+
+&lt;iframe src="https://ourworldindata.org/grapher/share-of-population-infected-with-hiv-ihme" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"&gt;&lt;/iframe&gt;
+
+---
+
+class: center,middle 
+
+# COVID
+
+---
+
+&lt;img src="/home/friend/Images/causes.png" width="100%" /&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
